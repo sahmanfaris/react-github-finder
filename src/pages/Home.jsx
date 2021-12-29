@@ -1,5 +1,13 @@
-const Home = () => {
-  return <div>Home</div>;
-};
+import UserResults from '../components/users/UserResults'
+import UserSearch from '../components/users/UserSearch'
 
-export default Home;
+const Home = () => {
+  return (
+    <div>
+      <UserSearch />
+      <UserResults />
+    </div>
+  )
+}
+
+export default Home
